@@ -1,4 +1,3 @@
-import React from 'react';
 import Dummy from '../components/Dummy';
 
 const Index = () => {
