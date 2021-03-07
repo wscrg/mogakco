@@ -20,7 +20,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', 'react-hooks', 'prettier'],
+  plugins: ['react', 'react-hooks', 'prettier', '@emotion'],
   settings: {
     react: {
       version: 'detect',
@@ -61,5 +61,7 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    '@emotion/jsx-import': 'error',
+    '@emotion/pkg-renaming': 'error',
   },
 };
