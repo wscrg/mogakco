@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build: 'Ubuntu 14.x'
+  build:
 
     runs-on: ubuntu-latest
 
