@@ -63,5 +63,6 @@ module.exports = {
     ],
     '@emotion/jsx-import': 'error',
     '@emotion/pkg-renaming': 'error',
+    'no-shadow': 'off',
   },
 };
