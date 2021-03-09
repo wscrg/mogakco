@@ -1,15 +1,18 @@
 import React from 'react';
-import Dummy from '../components/Dummy';
 import EmoEx from '../components/EmoEx';
+import CounterContainer from '../container/CounterContainer';
+import TodosContainer from '../container/TodosContainer';
 
-const Index = () => {
+const App = () => {
   return (
     <div>
       <h1>Index page</h1>
-      <Dummy />
       <EmoEx />
+      <CounterContainer />
+      <hr />
+      <TodosContainer />
     </div>
   );
 };
 
-export default Index;
+export default App;
